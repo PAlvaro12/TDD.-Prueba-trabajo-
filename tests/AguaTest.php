@@ -19,4 +19,11 @@ class AguaTest extends TestCase
             $this->assertSame('Sólido', $estado, "Temperatura $temperatura no es Sólida");
         }
     }
+    public function testLiquida(): void
+    {
+        foreach (range(1, 99) as $temperatura) {
+            $estado = $this->miAgua->getEstado($temperatura);
+            $this->assertSame('Líquido', $estado, "Temperatura $temperatura no es Líquido");
+        }
+    }
 }
