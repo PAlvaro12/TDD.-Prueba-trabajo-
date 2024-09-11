@@ -1,0 +1,13 @@
+{
+    "name": "alvaro_crazyn/taller-tdd",
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    },
+    "authors": [
+        {
+            "name": "PAlvaro12",
+            "email": "202012669a@utea.edu.pe"
+        }
+    ],
+    "require": {}
+}
