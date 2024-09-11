@@ -17,5 +17,6 @@ class Agua
     function getEstado(float $temperatura): string
     {
         if($temperatura <= 0 )return'Sólido';
+        if(0< $temperatura && $temperatura < 100) return 'Líquido';
     }
 }
